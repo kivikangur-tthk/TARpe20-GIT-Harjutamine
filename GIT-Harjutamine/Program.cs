@@ -6,7 +6,7 @@ namespace GIT_Harjutamine
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("elu on lõbus karneval");
 		}
 	}
 }
