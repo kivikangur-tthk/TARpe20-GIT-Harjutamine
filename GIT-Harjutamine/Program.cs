@@ -6,6 +6,7 @@ namespace GIT_Harjutamine
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Egert Arr asendus tekst");
 			Console.WriteLine("Hendris oli siin");
 		}
 	}
