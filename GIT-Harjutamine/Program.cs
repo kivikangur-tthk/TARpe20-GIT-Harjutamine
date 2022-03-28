@@ -32,7 +32,13 @@ namespace GIT_Harjutamine
 			AlamProgramm();
 			Kasparfunk();
 			EgertFunk();
-			TekstProgramm();
+			Kasparfunk();
+
+			utleMidagi();
+		}
+		public static void utleMidagi()
+		{
+			Console.WriteLine("Midagi");
 		}
 
 		private static void KristjanTervitab()
@@ -61,6 +67,8 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Sergei was here");
 			Console.WriteLine("function works , Egert was here hahaha");
 			Console.WriteLine("Jarmo was here");
+			Console.WriteLine("function works");
+            Console.WriteLine("can confirm, it does work");
 		}
 		public static void WriteToConsole(string input)
 		{
