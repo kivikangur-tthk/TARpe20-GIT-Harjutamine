@@ -36,7 +36,7 @@ namespace GIT_Harjutamine
 
 		public static void Kasparfunk()
 		{
-			Console.WriteLine("function works");
+			Console.WriteLine("Sergei was here");
 		}
 		public static void WriteToConsole(string input)
 		{
