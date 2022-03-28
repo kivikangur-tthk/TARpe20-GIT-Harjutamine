@@ -32,7 +32,6 @@ namespace GIT_Harjutamine
 			AlamProgramm();
 			Kasparfunk();
 			EgertFunk();
-			Kasparfunk();
 		}
 
 		private static void KristjanTervitab()
@@ -52,7 +51,7 @@ namespace GIT_Harjutamine
 
 		private static void EgertFunk()
 		{
-			Console.WriteLine("Egert tekst");
+			Console.WriteLine("Nüüd on Kaspari tekst");
 		}
 
 		public static void Kasparfunk()
