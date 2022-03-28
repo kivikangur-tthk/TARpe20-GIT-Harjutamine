@@ -4,6 +4,11 @@ namespace GIT_Harjutamine
 {
 	class Program
 	{
+		public static double calculatePersonalDose(double weight)
+        {
+			return weight * 1.5;
+        }
+
 		static void Main(string[] args)
 		{	
 			Console.WriteLine("genrix16 siin");
@@ -18,6 +23,10 @@ namespace GIT_Harjutamine
 			// Kutsu välja omaloodud alamprogrammi
 			Console.WriteLine("Sten Oli Siin");
 
+			Console.WriteLine(calculatePersonalDose(50));
+
+
+			WriteToConsole("hello world!");
 			AlamProgramm();
 		}
 
@@ -25,14 +34,19 @@ namespace GIT_Harjutamine
         {
             Console.WriteLine("Alamprogramm");
         }
-    }
-			Console.WriteLine("Tervitus Kasparilt.");
-			Kasparfunk();
-		}
 
 		public static void Kasparfunk()
 		{
 			Console.WriteLine("function works");
 		}
-	}
+		public static void WriteToConsole(string input)
+		{
+			Console.WriteLine(input);
+		}
+	}	
 }
+
+
+
+		
+
