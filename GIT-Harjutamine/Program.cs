@@ -22,6 +22,7 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Kristjan oli siin.");
             Console.WriteLine("Kaspar oli siin");
 			// Kutsu välja omaloodud alamprogrammi
+			KristjanTervitab();
 			Console.WriteLine("Sten Oli Siin");
  
 			Console.WriteLine(calculatePersonalDose(50));
@@ -31,9 +32,15 @@ namespace GIT_Harjutamine
 			AlamProgramm();
 			Kasparfunk();
 			EgertFunk();
+			Kasparfunk();
 		}
 
-        private static string TekstProgramm()
+		private static void KristjanTervitab()
+		{
+			Console.WriteLine("Tervitused Kristjanilt :)");
+		}
+
+		private static string TekstProgramm()
         {
             return "Tere :D 🎈🎈👓";
         }
@@ -41,7 +48,6 @@ namespace GIT_Harjutamine
         private static void AlamProgramm()
         {
             Console.WriteLine("Alamprogramm");
-
         }
 
 		private static void EgertFunk()
