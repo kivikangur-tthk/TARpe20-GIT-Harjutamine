@@ -4,6 +4,11 @@ namespace GIT_Harjutamine
 {
 	class Program
 	{
+		public static double calculatePersonalDose(double weight)
+        {
+			return weight * 1.5;
+        }
+
 		static void Main(string[] args)
 		{
 			Console.WriteLine("elu on lõbus karneval");
@@ -15,6 +20,9 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Lumi tuli maha ja valgeks läks maa!");
 			Console.WriteLine("Kristjan oli siin.");
 			Console.WriteLine("Sten Oli Siin");
+
+			Console.WriteLine(calculatePersonalDose(50));
+
 		}
 	}
 }
