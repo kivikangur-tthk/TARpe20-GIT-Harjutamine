@@ -24,6 +24,11 @@ namespace GIT_Harjutamine
         {
             Console.WriteLine("Alamprogramm");
         }
+
+		public static void Kasparfunk()
+		{
+			Console.WriteLine("function works");
+		}
 		public static void WriteToConsole(string input)
 		{
 			Console.WriteLine(input);
