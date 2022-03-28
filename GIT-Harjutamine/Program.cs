@@ -7,6 +7,7 @@ namespace GIT_Harjutamine
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hegert Taresalu Oli siin");
+			Console.WriteLine("Kristjan oli siin.");
 			Console.WriteLine("Tervitus Kasparilt.");
 		}
 	}
