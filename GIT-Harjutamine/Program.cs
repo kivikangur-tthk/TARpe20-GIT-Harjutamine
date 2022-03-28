@@ -28,12 +28,18 @@ namespace GIT_Harjutamine
 
 			WriteToConsole("hello world!");
 			AlamProgramm();
+			EgertFunk();
 		}
 
         private static void AlamProgramm()
         {
             Console.WriteLine("Alamprogramm");
         }
+
+		private static void EgertFunk()
+		{
+			Console.WriteLine("Egert tekst");
+		}
 
 		public static void Kasparfunk()
 		{
@@ -43,6 +49,7 @@ namespace GIT_Harjutamine
 		{
 			Console.WriteLine(input);
 		}
+
 	}	
 }
 
