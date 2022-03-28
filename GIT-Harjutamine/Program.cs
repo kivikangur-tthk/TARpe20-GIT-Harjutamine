@@ -25,6 +25,7 @@ namespace GIT_Harjutamine
 			Console.WriteLine(calculatePersonalDose(50));
 
 
+			WriteToConsole("hello world!");
 			AlamProgramm();
 		}
 
@@ -32,14 +33,19 @@ namespace GIT_Harjutamine
         {
             Console.WriteLine("Alamprogramm");
         }
-    }
-			Console.WriteLine("Tervitus Kasparilt.");
-			Kasparfunk();
-		}
 
 		public static void Kasparfunk()
 		{
 			Console.WriteLine("function works");
 		}
-	}
+		public static void WriteToConsole(string input)
+		{
+			Console.WriteLine(input);
+		}
+	}	
 }
+
+
+
+		
+
