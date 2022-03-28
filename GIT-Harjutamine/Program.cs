@@ -7,6 +7,7 @@ namespace GIT_Harjutamine
 		static void Main(string[] args)
 		{
 			Console.WriteLine("elu on lõbus karneval");
+			Console.WriteLine("Egert Arr asendus tekst");
 		}
 	}
 }
