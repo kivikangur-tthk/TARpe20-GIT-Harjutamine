@@ -13,5 +13,11 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Lumi tuli maha ja valgeks läks maa!");
 			Console.WriteLine("Kristjan oli siin.");
 		}
+
+
+		public static void WriteToConsole(string input)
+        {
+			Console.WriteLine(input);
+        }
 	}
 }
