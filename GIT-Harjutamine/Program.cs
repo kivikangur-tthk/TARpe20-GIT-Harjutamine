@@ -19,10 +19,27 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Hegert Taresalu Oli siin");
 			Console.WriteLine("Lumi tuli maha ja valgeks läks maa!");
 			Console.WriteLine("Kristjan oli siin.");
+			// Kutsu välja omaloodud alamprogrammi
 			Console.WriteLine("Sten Oli Siin");
 
 			Console.WriteLine(calculatePersonalDose(50));
 
+
+			AlamProgramm();
+		}
+
+        private static void AlamProgramm()
+        {
+            Console.WriteLine("Alamprogramm");
+        }
+    }
+			Console.WriteLine("Tervitus Kasparilt.");
+			Kasparfunk();
+		}
+
+		public static void Kasparfunk()
+		{
+			Console.WriteLine("function works");
 		}
 	}
 }
