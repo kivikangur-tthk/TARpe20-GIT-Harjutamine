@@ -32,8 +32,6 @@ namespace GIT_Harjutamine
 			AlamProgramm();
 			Kasparfunk();
 			EgertFunk();
-			Kasparfunk();
-
 			utleMidagi();
 		}
 		public static void utleMidagi()
