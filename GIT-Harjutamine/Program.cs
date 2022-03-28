@@ -58,11 +58,14 @@ namespace GIT_Harjutamine
 
 		private static void EgertFunk()
 		{
-			Console.WriteLine("Egert tekst");
+			Console.WriteLine("Nüüd on Kaspari tekst");
 		}
 
 		public static void Kasparfunk()
 		{
+			Console.WriteLine("Sergei was here");
+			Console.WriteLine("function works , Egert was here hahaha");
+			Console.WriteLine("Jarmo was here");
 			Console.WriteLine("function works");
             Console.WriteLine("can confirm, it does work");
 		}
