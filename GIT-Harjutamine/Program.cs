@@ -30,6 +30,7 @@ namespace GIT_Harjutamine
 			WriteToConsole("hello world!");
 			AlamProgramm();
 			EgertFunk();
+			Kasparfunk();
 		}
 
 		private static void KristjanTervitab()
@@ -45,10 +46,6 @@ namespace GIT_Harjutamine
         private static void AlamProgramm()
         {
             Console.WriteLine("Alamprogramm");
-        
-
-        Console.WriteLine("Tervitus Kasparilt.");
-			Kasparfunk();
         }
 
 		private static void EgertFunk()
