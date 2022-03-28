@@ -29,6 +29,7 @@ namespace GIT_Harjutamine
 			WriteToConsole("hello world!");
 			AlamProgramm();
 			EgertFunk();
+			TekstProgramm();
 		}
 
         private static string TekstProgramm()
@@ -56,7 +57,7 @@ namespace GIT_Harjutamine
 		}
 		public static void WriteToConsole(string input)
 		{
-			Console.WriteLine(input);
+			Console.WriteLine(input,"🕶");
 		}
 
 	}	
