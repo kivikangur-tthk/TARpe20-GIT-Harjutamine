@@ -24,15 +24,13 @@ namespace GIT_Harjutamine
         {
             Console.WriteLine("Alamprogramm");
         }
-    }
-
-			WriteToConsole("Hello world!");
-		}
-
-
 		public static void WriteToConsole(string input)
-        {
+		{
 			Console.WriteLine(input);
-        }
-	}
+		}
+	}	
 }
+
+
+		
+
