@@ -64,6 +64,7 @@ namespace GIT_Harjutamine
 		public static void Kasparfunk()
 		{
 			Console.WriteLine("function works");
+            Console.WriteLine("can confirm, it does work");
 		}
 		public static void WriteToConsole(string input)
 		{
