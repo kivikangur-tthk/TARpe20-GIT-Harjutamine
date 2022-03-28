@@ -5,7 +5,8 @@ namespace GIT_Harjutamine
 	class Program
 	{
 		static void Main(string[] args)
-		{
+		{	
+			Console.WriteLine("genrix16 siin");
 			Console.WriteLine("elu on lõbus karneval");
 			Console.WriteLine("Hey, I'm Jarmo!");
 			Console.WriteLine("Egert Arr asendus tekst");
