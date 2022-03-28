@@ -15,5 +15,23 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Kristjan oli siin.");
 			Console.WriteLine("Sten Oli Siin");
 		}
+
+		public static void Hello(string[] args)
+        {
+			Console.WriteLine("Hello");
+			string Greeting = Console.ReadLine().ToLower();
+            while (true)
+            {
+				if (Greeting == "hello")
+				{
+					Console.WriteLine("Have a nice day");
+					break;
+				}
+				else
+				{
+					Console.WriteLine("can you repeat that?");
+				}
+			}
+        }
 	}
 }
