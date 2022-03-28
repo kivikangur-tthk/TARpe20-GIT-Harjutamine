@@ -8,6 +8,7 @@ namespace GIT_Harjutamine
 		{
 			Console.WriteLine("Hegert Taresalu Oli siin");
 			Console.WriteLine("Kristjan oli siin.");
+			// Kutsu välja omaloodud alamprogrammi
 		}
 	}
 }
