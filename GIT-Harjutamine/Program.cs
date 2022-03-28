@@ -42,6 +42,7 @@ namespace GIT_Harjutamine
 		private static void KristjanTervitab()
 		{
 			Console.WriteLine("Tervitused Kristjanilt :)");
+            Console.WriteLine("Tere! 🕶");
 		}
 
 		private static string TekstProgramm()
