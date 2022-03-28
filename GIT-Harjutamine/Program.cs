@@ -7,6 +7,7 @@ namespace GIT_Harjutamine
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hey, I'm Jarmo!");
+			Console.WriteLine("Egert Arr asendus tekst");
 		}
 	}
 }
