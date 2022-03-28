@@ -14,6 +14,13 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Lumi tuli maha ja valgeks läks maa!");
 			Console.WriteLine("Kristjan oli siin.");
 			Console.WriteLine("Sten Oli Siin");
+
+			AlamProgramm();
 		}
-	}
+
+        private static void AlamProgramm()
+        {
+            Console.WriteLine("Alamprogramm");
+        }
+    }
 }
