@@ -10,6 +10,12 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Hendris oli siin");
 			Console.WriteLine("Hegert Taresalu Oli siin");
 			Console.WriteLine("Kristjan oli siin.");
+
+			utleMidagi();
+		}
+		public static void utleMidagi()
+		{
+			Console.WriteLine("Midagi");
 		}
 	}
 }
