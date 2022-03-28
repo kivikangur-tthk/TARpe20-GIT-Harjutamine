@@ -10,6 +10,7 @@ namespace GIT_Harjutamine
 			Console.WriteLine("Egert Arr asendus tekst");
 			Console.WriteLine("Hendris oli siin");
 			Console.WriteLine("Hegert Taresalu Oli siin");
+			Console.WriteLine("Lumi tuli maha ja valgeks läks maa!");
 			Console.WriteLine("Kristjan oli siin.");
 		}
 	}
